@@ -1,10 +1,6 @@
 from math import sin, cos, pi
 
 
-def print_hi(name):
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
 def func(x):
     return -4 * x * sin(x)
 
@@ -24,6 +20,5 @@ def middle_point(a, b, eps):
         return middle_point(middle, b, eps)
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print(middle_point(0, pi, 10 ** -10))
